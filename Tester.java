@@ -18,6 +18,7 @@ public class Tester
         
         System.out.println(r1.limitAmplitude(2000));
         System.out.println(r1.toString());
+        System.out.println(r2.limitAmplitude(2000));
         System.out.println(r2.toString());
    }
 }

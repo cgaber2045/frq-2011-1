@@ -23,7 +23,8 @@ public class Sound
         
     }
 
-    /** Changes those values in this sound that have an amplitude greater than limit.
+    /** 
+     * Changes those values in this sound that have an amplitude greater than limit.
      * Values greater than limit are changed to limit.
      * Values less than -limit are changed to -limit.
      *
@@ -53,7 +54,8 @@ public class Sound
         
     }
     
-    /** Removes all silence from the beginning of this sound.
+    /** 
+     *  Removes all silence from the beginning of this sound.
      *  Silence is represented by a value of 0.
      */
     
@@ -77,7 +79,8 @@ public class Sound
         samples = result;
     }
     
-    /** Calls trimSilence function and outputs the array.
+    /** 
+     *  Calls trimSilence function and outputs the array.
      *  @return The output of array samples.
      */
     
