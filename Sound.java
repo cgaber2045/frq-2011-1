@@ -15,6 +15,7 @@ public class Sound
 
     /**
      * Constructor for objects of class Sound
+     * @param samples array of values in the sound.
      */
     
     public Sound(int[] samples)
